@@ -11,6 +11,12 @@ export default function Home(): any {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <div className='snows'>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div className='flex items-center'>
         <div className='text-center mx-auto inline-block bg-winter w-full bg-cover text-white bg-no-repeat min-h-[700px]'>
           <h1 className='text-6xl leading-tight max-w-3xl font-bold tracking-tight mt-[200px] mx-auto mb-10 p-2 bg-zinc-800 bg-opacity-80'>
