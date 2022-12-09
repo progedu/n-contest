@@ -535,6 +535,17 @@ export default function Home(): any {
           </div>
         </div>
       </div>
+      <div id='koremade' className='bg-white p-2 pb-10'>
+        <h2 className='text-center text-3xl font-bold m-7'>これまでのコンテスト</h2>
+        <a
+          href='https://progedu.github.io/webappcontest/'
+          target='_blank'
+          rel='noreferrer'
+          className='block bg-stone-600 hover:bg-stone-700 text-2xl text-center text-white font-bold py-4 px-8 w-9/12 rounded mt-10 mb-5 mx-auto'
+        >
+          これまでのコンテストはこちらから
+        </a>
+      </div>
       <div id='judge' className='bg-zinc-200 p-2 pb-10'>
         <h2 className='text-center text-3xl font-bold m-7'>審査員</h2>
         <div className='flex flex-wrap'>
