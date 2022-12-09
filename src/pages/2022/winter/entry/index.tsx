@@ -333,7 +333,7 @@ export default function Home(): any {
           href='https://forms.gle/84kpHAWgYQRXU4VG9'
           target='_blank'
           rel='noreferrer'
-          className='block bg-blue-600 hover:bg-blue-700 text-3xl text-center text-white font-bold py-5 px-10 w-9/12 rounded mt-10 mb-5 mx-auto'
+          className='block bg-blue-600 hover:bg-blue-700 text-3xl text-center text-white font-bold py-5 px-10 w-10/12 rounded mt-10 mb-5 mx-auto'
         >
           応募はこちらから
         </a>
@@ -462,7 +462,7 @@ export default function Home(): any {
           href='https://forms.gle/84kpHAWgYQRXU4VG9'
           target='_blank'
           rel='noreferrer'
-          className='block bg-orange-600 hover:bg-orange-700 text-3xl text-center text-white font-bold py-5 px-10 w-9/12 rounded mt-10 mb-5 mx-auto'
+          className='block bg-orange-600 hover:bg-orange-700 text-3xl text-center text-white font-bold py-5 px-10 w-10/12 rounded mt-10 mb-5 mx-auto'
         >
           応募はこちらから
         </a>
@@ -517,7 +517,7 @@ export default function Home(): any {
           href='https://questant.jp/q/U2AAO0ZM'
           target='_blank'
           rel='noreferrer'
-          className='block bg-violet-600 hover:bg-violet-700 text-3xl text-center text-white font-bold py-5 px-10 w-9/12 rounded mt-10 mb-5 mx-auto'
+          className='block bg-violet-600 hover:bg-violet-700 text-3xl text-center text-white font-bold py-5 px-10 w-10/12 rounded mt-10 mb-5 mx-auto'
         >
           応募はこちらから
         </a>
@@ -547,7 +547,7 @@ export default function Home(): any {
           href='https://progedu.github.io/webappcontest/'
           target='_blank'
           rel='noreferrer'
-          className='block bg-stone-600 hover:bg-stone-700 text-2xl text-center text-white font-bold py-4 px-8 w-9/12 rounded mt-10 mb-5 mx-auto'
+          className='block bg-stone-600 hover:bg-stone-700 text-2xl text-center text-white font-bold py-4 px-8 w-10/12 rounded mt-10 mb-5 mx-auto'
         >
           これまでのコンテストはこちらから
         </a>
