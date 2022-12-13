@@ -51,7 +51,7 @@ export default function Home(): any {
           </dt>
           <dd className='text-center'>
             <a
-              href='https://www.nnn.ed.nico/lessons/482532171'
+              href='https://www.nnn.ed.nico/lessons/482532170'
               target='_blank'
               rel='noreferrer'
               className='block mx-auto flex p-7 mx-auto my-5 bg-white hover:bg-blue-200 rounded-md shadow-lg max-w-[500px] border-solid border-2 border-gray-400'
@@ -60,9 +60,9 @@ export default function Home(): any {
                 <img src='/images/zadankai.png' />
               </div>
               <div className='text-md'>
-                2023年3月2日 (木) 19:00 ~ (90分) 予定
+                2023年<span className='line-through'>3月2日</span><span className='text-red-400 font-bold'>2月9日</span> (木) 19:00 ~ (90分) 予定
                 <br />
-                <b>【月次特番】 プログラミングコース座談会 #26</b>
+                <b>【特番】 プログラミングコース座談会 #26</b>
               </div>
             </a>
           </dd>
