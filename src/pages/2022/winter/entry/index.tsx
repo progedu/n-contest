@@ -9,6 +9,7 @@ export default function Home(): any {
           name='description'
           content='N予備校 動くWebページコンテスト2022夏は、N予備校プログラミング入門コースで学んだN・S高校生、N中等部生ならびにN予備校受講者が、 プログラミングの成果物を競うコンテストです。'
         />
+        <meta name="twitter:card" content="summary_large_image"></meta>
         <meta name="og:image" content="https://n-contest.web.app/images/2022_entry.png"></meta>
         <link rel='icon' href='/favicon.ico' />
       </Head>
