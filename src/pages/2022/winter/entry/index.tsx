@@ -60,9 +60,9 @@ export default function Home(): any {
                 <img src='/images/zadankai.png' />
               </div>
               <div className='text-md'>
-                2023年<span className='line-through'>3月2日</span><span className='text-red-400 font-bold'>2月9日</span> (木) 19:00 ~ (90分) 予定
+                2023年<span className='line-through'>3月2日</span><span className='text-red-500 font-bold'>2月9日</span> (木) <br />19:00 ~ (90分) 予定
                 <br />
-                <b>【特番】 プログラミングコース座談会 #26</b>
+                <b>【特番】 N予備校動くWebページコンテスト2022 冬 結果発表</b>
               </div>
             </a>
           </dd>
