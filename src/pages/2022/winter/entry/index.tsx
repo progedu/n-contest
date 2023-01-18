@@ -181,7 +181,7 @@ export default function Home(): any {
             </dd>
           </dl>
           <dl className='w-full lg:w-[32%] p-7 my-5 bg-white rounded-md shadow-lg'>
-            <dt className='text-center text-2xl font-bold my-2'>コーディング</dt>
+            <dt className='text-center text-2xl font-bold my-2'>アイデア</dt>
             <dd className='text-center text-lg my-2'>
               <ul className='divide-y-[3px] divide-gray-300'>
                 <li className='p-2'>作品のテーマ・アイデアが新しいか</li>
