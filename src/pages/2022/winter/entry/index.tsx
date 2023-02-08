@@ -9,11 +9,17 @@ export default function Home(): any {
           name='description'
           content='N予備校 動くWebページコンテスト2022冬は、N予備校プログラミング入門コースで学んだN・S高校生、N中等部生ならびにN予備校受講者が、 プログラミングの成果物を競うコンテストです。'
         />
-        <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
-        <meta property="og:title" content="N予備校 動くWebページコンテスト 2022 冬 | 応募ページ" />
-        <meta property="og:description" content="N予備校 動くWebページコンテスト2022冬は、N予備校プログラミング入門コースで学んだN・S高校生、N中等部生ならびにN予備校受講者が、 プログラミングの成果物を競うコンテストです。" />
-        <meta name="og:image" content="https://n-contest.web.app/images/2022_entry.png"></meta>
+        <meta name='twitter:card' content='summary_large_image'></meta>
+        <meta
+          property='og:url'
+          content='http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/'
+        />
+        <meta property='og:title' content='N予備校 動くWebページコンテスト 2022 冬 | 応募ページ' />
+        <meta
+          property='og:description'
+          content='N予備校 動くWebページコンテスト2022冬は、N予備校プログラミング入門コースで学んだN・S高校生、N中等部生ならびにN予備校受講者が、 プログラミングの成果物を競うコンテストです。'
+        />
+        <meta name='og:image' content='https://n-contest.web.app/images/2022_entry.png'></meta>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='snows'>
@@ -60,7 +66,9 @@ export default function Home(): any {
                 <img src='/images/zadankai.png' />
               </div>
               <div className='text-md'>
-                2023年<span className='line-through'>3月2日</span><span className='text-red-500 font-bold'>2月9日</span> (木) <br />19:00 ~ (90分) 予定
+                2023年<span className='line-through'>3月2日</span>
+                <span className='text-red-500 font-bold'>2月9日</span> (木) <br />
+                19:00 ~ (90分) 予定
                 <br />
                 <b>【特番】 N予備校動くWebページコンテスト2022 冬 結果発表</b>
               </div>
