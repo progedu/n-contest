@@ -287,11 +287,11 @@ export default function Index(): any {
         <meta name='twitter:image' content='https://n-contest.web.app/tcard2.png' />
         <meta
           name='description'
-          content='N予備校 動くWEBページコンテスト2022冬の結果発表ページです。結果発表は2022年10月6日(木)を予定しています。'
+          content='N予備校 動くWEBページコンテスト2022冬の結果発表ページです。'
         />
         <meta
           name='twitter:description'
-          content='N予備校 動くWEBページコンテスト2022冬の結果発表ページです。結果発表は2022年10月6日(木)を予定しています。'
+          content='N予備校 動くWEBページコンテスト2022冬の結果発表ページです。'
         />
         <meta property='og:url' content='https://n-contest.web.app/2022/winter/result/index.html' />
         <meta property='og:title' content='N予備校 動くWEBページコンテスト2022冬' />
