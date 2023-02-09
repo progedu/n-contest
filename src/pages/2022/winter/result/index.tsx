@@ -297,7 +297,7 @@ export default function Index(): any {
         <meta property='og:title' content='N予備校 動くWEBページコンテスト2022冬' />
         <meta
           property='og:description'
-          content='N予備校 動くWEBページコンテスト2022冬の結果発表ページです。結果発表は2022年10月6日(木)を予定しています。'
+          content='N予備校 動くWEBページコンテスト2022冬の結果発表ページです。'
         />
         <meta property='og:image' content='https://n-contest.web.app/tcard2.png' />
         <link href='https://fonts.googleapis.com/css?family=Noto+Serif+JP' rel='stylesheet'></link>
