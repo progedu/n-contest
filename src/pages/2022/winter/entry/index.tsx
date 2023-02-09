@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Script from 'next/script'
+import styles from './Home.module.css'
 
 export default function Home(): any {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>N予備校 動くWebページコンテスト 2022 冬 | 応募ページ</title>
         <meta
@@ -22,6 +24,7 @@ export default function Home(): any {
         <meta name='og:image' content='https://n-contest.web.app/images/2022_entry.png'></meta>
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <Script src='https://cdn.tailwindcss.com'></Script>
       <div className='snows'>
         <div></div>
         <div></div>
@@ -29,7 +32,10 @@ export default function Home(): any {
         <div></div>
       </div>
       <div className='flex items-center'>
-        <div className='text-center mx-auto inline-block bg-winter w-full bg-cover text-white bg-no-repeat min-h-[700px]'>
+        <div
+          className='text-center mx-auto inline-block bg-winter w-full bg-cover text-white bg-no-repeat min-h-[700px]'
+          style={{ backgroundImage: "url('/bg.jpg')" }}
+        >
           <h1 className='text-6xl leading-tight max-w-3xl font-bold tracking-tight mt-[200px] mx-auto mb-10 p-2 bg-zinc-800 bg-opacity-80'>
             N予備校 <br />
             動くWebページコンテスト

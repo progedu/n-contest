@@ -2,7 +2,7 @@
   color-scheme: dark;
   color: #333333;
   padding: 0 2rem;
-  background: url('/marine.png') no-repeat, linear-gradient(#6bd6fa 50%, #20738d);
+  background: url('/bg2.png') no-repeat, linear-gradient(#01012b, #090951 5%, #4b5fc1 10%,#6774b7);
   background-size: contain;
 }
 
@@ -19,8 +19,8 @@
 .border {
   margin: 30px 0;
   height: 3px;
-  background-color: rgb(19, 162, 251);
-  box-shadow: 1px 1px 1px #0aa4e1;
+  background-color: #6774b7;
+  box-shadow: 1px 1px 1px #6774b7;
 }
 
 .border_sensui {
@@ -38,7 +38,7 @@
   position: relative;
   padding: 15px 20px;
   color: #FFF;
-  background: #21496f;
+  background: #8654a5;
   font-size: 4vw;
   width: 90vw;
   margin: 50px auto;
@@ -75,7 +75,7 @@
 
 .ribbon_result {
   color: #FFF;
-  background: #a23d1e;
+  background: #8654a5;
 }
 
 .ribbon_contest {
@@ -269,6 +269,7 @@
 }
 
 .title_area {
+  color: #E7E7E7;
   text-align: center;
 }
 
@@ -362,4 +363,8 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.ugoku {
+  color: #ffe100;
 }

@@ -7,12 +7,18 @@
   ],
   "rules": {
     "import/order": [
-      "error",
+      "warn",
       {
         "alphabetize": {
           "order": "asc"
         }
       }
-    ]
+    ],
+    "spaced-comment": ["warn"],
+    "@typescript-eslint/no-var-requires": "off"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
   }
 }

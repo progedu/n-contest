@@ -5,12 +5,13 @@ import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
-import { Image, OpenInNew } from '@mui/icons-material'
+import { OpenInNew } from '@mui/icons-material'
 import { Chip, Link } from '@mui/material'
+import styles from './Home.module.css'
 
-export default function ContentCard(props) {
+export default function ContentCard(props: any): any {
   return (
-    <Card className='content-card'>
+    <Card className={`${styles.content_card}`}>
       <CardMedia
         component='img'
         image={props.img_url}

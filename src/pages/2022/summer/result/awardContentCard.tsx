@@ -1,17 +1,19 @@
-import * as React from 'react'
-import Card from '@mui/material/Card'
-import CardActions from '@mui/material/CardActions'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
+import styles from './Home.module.css'
+
+import { OpenInNew } from '@mui/icons-material'
+import { Link } from '@mui/material'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
-import { Image, OpenInNew } from '@mui/icons-material'
-import { Chip, Link } from '@mui/material'
+import * as React from 'react'
 
-export default function AwardContentCard(props) {
+export default function AwardContentCard(props: any): any {
   return (
-    <div className='award-content-card'>
-      <img className='header' src={props.img_url} style={{ borderBottom: '1px solid #6bd6fa' }} />
+    <div className={`${styles.award_content_card}`}>
+      <img
+        className={`${styles.header}`}
+        src={props.img_url}
+        style={{ borderBottom: '1px solid #6bd6fa' }}
+      />
       <Typography gutterBottom variant='h5' component='div'>
         {props.title}
       </Typography>
